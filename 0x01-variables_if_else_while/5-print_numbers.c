@@ -3,15 +3,16 @@
 /**
  * main - Prints numbers from 0 to 9.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	int i;
+	int num;
 
-	for (i = 0; i < 10; i++)
-	{
-		printf("%d\n", i);
-	}
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
+
 	return (0);
 }
